@@ -1,0 +1,10 @@
+package org.generation.farmacia.repository;
+
+import org.generation.farmacia.model.Produto;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProdutorsRepository extends JpaRepository<Produto, Long>{
+
+}
